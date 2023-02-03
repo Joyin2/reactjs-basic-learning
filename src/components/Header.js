@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -23,7 +24,10 @@ const Header = () => {
                 className="navbar-nav me-auto mb-2 mb-lg-0"
                 id="navbarSupportedContent"
               >
-                <li className="nav-item nav-link">Home</li>
+                <Link to="/" style={{textDecoration:"none"}}>
+                  <li className="nav-item nav-link">Home</li>
+                </Link>
+                
                 <li className="nav-item nav-link">Create</li>
                 <li className="nav-item nav-link">About</li>
               </ul>
