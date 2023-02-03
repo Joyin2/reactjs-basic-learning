@@ -1,3 +1,4 @@
+import "./App.css"
 import React from "react";
 import Home from "./pages/Home";
 import { Routes, Route } from "react-router-dom";
@@ -7,6 +8,7 @@ import Detail from "./pages/Detail";
 import AddEditBlog from "./pages/AddEditBlog";
 import About from "./pages/About";
 import Notfound from "./pages/Notfound";
+
 function App() {
   return (
     <div>
